@@ -1,0 +1,124 @@
+body {
+    font-family: "Barlow Condensed", sans-serif;
+    color: #242424;
+    width: 100%;
+
+    background-color: rgba(245, 233, 233, 0.751);
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.navbar {
+    background-color: #352c2a;
+    max-height: 100%;
+
+
+}
+
+.navbar-brand {
+    display:-moz-box;
+    padding: 0.5rem;
+    flex-flow: column;
+
+}
+.img-fluid  {
+    max-width: 12rem;
+    max-height: 12rem;
+    border: 0.3rem solid #1873cde0;
+    border-radius: 100%;
+}
+.mobile-img{
+    max-width: 12rem;
+    max-height: 12rem;
+    border: 0.3rem solid #159be2e0;
+    border-radius: 100%;
+}
+
+#sideNav {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    height: 100vh;
+    place-content: center;
+}
+
+.resume-section {
+    padding-top: 3rem !important;
+    
+}
+
+h1,
+.mobile-name {
+    font-family: "Just Another Hand", cursive;
+    font-size: 4.5rem;
+    letter-spacing: 0.1rem;
+}
+
+h2,
+h4,
+
+h6,
+#sideNav {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+.tt-1,.tt-2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+
+.content {
+    padding-left: 300px;
+    border: radius 5px;
+
+}
+
+.contact-form {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    width: 50%;
+    padding: 0;
+}
+
+.btn {
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    color: white;
+    width: 50%;
+    border: none;
+}
+.progress-bar,
+.btn {
+background-color: #1873cde0;
+}
+
+
+.card{
+    border: none;
+    
+}
+a{
+    color: #1873cde0;
+}
+.mobile-img{
+    height: 150px;
+    width: 150px;
+}
+.rr{   
+    position:relative; left:130px;    
+}
+
+@media only screen and (max-width:700px) {
+    .navbar{
+        color: aqua;
+    }
+    
+}
+
